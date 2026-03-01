@@ -2,6 +2,16 @@
     <body>
         <h1>Hello!</h1>
         <br>
+        <h2>This is Proof-of-Concept work</h2><br>
+        It supposes it somehow learns your name from interaction with the site (Marios here is a placeholder)<br>
+        and then sends your name and your fingerprint to the server<br>
+        Next time u visit the site, it either shows you:<br>
+        - Marios (the system didn't recognize you)<br>
+        - your typed name (the system did recognize you)<br>
+        It works pretty good with Google Chrome (even if you try Incognito Window),<br>
+        and a bit less reliable with MacOS' Safari<br>
+        It doesn't store any cookies, so no GDPR is violated =)<br>
+        <br>
         <input type="text" id="name_input" value="Marios" onchange="save_to_remote()">
     </body>
     <script src="https://cdn.jsdelivr.net/npm/js-sha256@0.10.1/src/sha256.min.js"></script>
